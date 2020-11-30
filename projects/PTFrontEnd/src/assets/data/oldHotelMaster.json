@@ -1,0 +1,206 @@
+ [
+        {
+            "HOTEL_NAME": "AREEJ ALFALAH **",
+            "LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "250 Mt"
+        },
+        {
+            "HOTEL_NAME": "LOLO ALKHALIL**",
+            "LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "250 Mt"
+        },
+        {
+            "HOTEL_NAME": "MARSA AL JARIAH***",
+            "LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "300 Mt"
+        },
+        {
+            "HOTEL_NAME": "DIY AFAT MUBARAK",
+            "LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "300 Mt"
+        },
+        {
+            "HOTEL_NAME": "NAWARAT SHAMS 02**",
+            "LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "350 Mt"
+        },
+        {
+            "HOTEL_NAME": "WADI IBRAHIM TOWER",
+            "LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "450 Mt"
+        },
+        {
+            "HOTEL_NAME": "DIY AFAH ALRAHMAN",
+            "LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "250 Mt"
+        },
+        {
+            "HOTEL_NAME": "BURJ AL SULTAN**",
+            "LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "200Mt "
+        },
+        {
+            "HOTEL_NAME": "NAWARAT SHAMS 01",
+            "LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "250 Mt"
+        },
+        {
+            "HOTEL_NAME": "FIRDOUS AL UMRAH***",
+            "LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "600 Mt"
+        },
+        {
+            "HOTEL_NAME": "AL HUD HUD",
+            "LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "450 Mt"
+        },
+        {
+            "HOTEL_NAME": "THARAWAT AL ANDLUSIA***",
+            "LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "450 Mt"
+        },
+        {
+            "HOTEL_NAME": "RIYADHAH HIJRA***",
+            "LOCATION": "AL-HIJRA ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "550 Mt"
+        },
+        {
+            "HOTEL_NAME": "AL-HIJRA AL MASSI**",
+            "LOCATION": "AL-HIJRA ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "550 Mt"
+        },
+        {
+            "HOTEL_NAME": "MAATHER ALJIWAAR HOTEL",
+            "LOCATION": "AL-HIJRA ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "600 Mt"
+        },
+        {
+            "HOTEL_NAME": "GHALA AL TAJ",
+            "LOCATION": "AL-HIJRA ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "550 Mt"
+        },
+        {
+            "HOTEL_NAME": "FINAL REHAB ",
+            "LOCATION": "AL-HIJRA ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "550 Mt"
+        },
+        {
+            "HOTEL_NAME": "Nosour Al Mohajreen",
+            "LOCATION": "AL-HIJRA ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "500 Mt"
+        },
+        {
+            "HOTEL_NAME": "Nosour Al Dahabi",
+            "LOCATION": "AL-HIJRA ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "450 Mt"
+        },
+        {
+            "HOTEL_NAME": "QADERIA AL MASSI",
+            "LOCATION": "AL-HIJRA ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "1200 Mt"
+        },
+        {
+            "HOTEL_NAME": "AHRAM AL MAASI",
+            "LOCATION": "AJYAD ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "500 Mt"
+        },
+        {
+            "HOTEL_NAME": "BURJ JAWAD***",
+            "LOCATION": "AJYAD ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "200 Mt"
+        },
+        {
+            "HOTEL_NAME": "OLAYAN AJIYAD***",
+            "LOCATION": "AJYAD ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "300 Mt"
+        },
+        {
+            "HOTEL_NAME": "RAYA GRAND***",
+            "LOCATION": "AJYAD ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "400 Mt"
+        },
+        {
+            "HOTEL_NAME": "AL-RAYA AJYAD***",
+            "LOCATION": "AJYAD ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "500 Mt"
+        },
+        {
+            "HOTEL_NAME": "MANAR AL TAZ",
+            "LOCATION": "AJYAD ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "500 Mt"
+        },
+        {
+            "HOTEL_NAME": "AL BARKATHI",
+            "LOCATION": "AJYAD ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "500 Mt"
+        },
+        {
+            "HOTEL_NAME": "AL MANAR AL HUSSAIN",
+            "LOCATION": "AJYAD ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "500 Mt"
+        },
+        {
+            "HOTEL_NAME": "NADA AL-DEAFAH***",
+            "LOCATION": "AJYAD ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "150 Mt"
+        },
+        {
+            "HOTEL_NAME": "SARAYA AJYAD***",
+            "LOCATION": "AJYAD ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "300 Mt"
+        },
+        {
+            "HOTEL_NAME": "SARAYA IMAN***",
+            "LOCATION": "AJYAD ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "350 Mt"
+        },
+        {
+            "HOTEL_NAME": "AL-MASSA",
+            "LOCATION": "AJYAD ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "50 Mt"
+        },
+        {
+            "HOTEL_NAME": "LE MERIDIAN",
+            "LOCATION": "AJYAD ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "100 Mt"
+        },
+        {
+            "HOTEL_NAME": "JAWHARAT AL HUSSAIN",
+            "LOCATION": "AJYAD ST.HOTEL",
+            "CITY": "Makkah",
+            "HARAM_DISTANCE": "300 Mt"
+        }
+    ]

@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'my-social-icons';
+  src:
+    url('fonts/my-social-icons.ttf?fzdolf') format('truetype'),
+    url('fonts/my-social-icons.woff?fzdolf') format('woff'),
+    url('fonts/my-social-icons.svg?fzdolf#my-social-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="my-social-"], [class*=" my-social-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'my-social-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-size: 20px;
+  color: black;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.my-social-kaaba-solid:before {
+  content: "\e905";
+}
+.my-social-facebook:before {
+  content: "\e900";
+}
+.my-social-google:before {
+  content: "\e901";
+}
+.my-social-twitter:before {
+  content: "\e902";
+}
+.my-social-whatsapp:before {
+  content: "\e903";
+}
+.my-social-youtube:before {
+  content: "\e904";
+}

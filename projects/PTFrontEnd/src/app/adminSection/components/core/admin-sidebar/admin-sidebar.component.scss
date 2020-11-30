@@ -1,0 +1,49 @@
+
+// .mat-sidenav {
+//   width: 100px;
+//   background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+//   color: gray;
+//   text-align: center;
+//  }
+.navbar {
+  background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+  font-family: 'Arial Narrow';
+  color: white;
+  // background-color: rgb(124, 104, 103);
+}
+.mat-sidenav-content {
+  margin-top: 64px;
+}
+
+.mat-sidenav {
+  width: 175px;
+  // background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+  // background-color: #337ab7;
+  background-color: #055377;
+  // color: rgb(145, 39, 39);
+  text-align: center;
+}
+
+.sidebarBtn {
+  color: white;
+  width: 135px !important;
+  margin-top: 15px;
+  border-color: wheat;
+
+}
+
+.mat-icon {
+  color:rgb(218, 213, 213);
+}
+
+mat-min-fab {
+  color: black;
+}
+
+span {
+  margin-left: 5px;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+.mat-sidenav-content {margin-top: 56px;}
+}

@@ -1,0 +1,247 @@
+﻿[
+	{
+		"HOTELCODE": "A001",
+		"HOTELNAME": "AHRAM AL MAASI",
+		"LOCATION": "AJYAD ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "500 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "A002",
+		"HOTELNAME": "AL HUD HUD",
+		"LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "450 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "A003",
+		"HOTELNAME": "AL-HIJRA AL MASSI**",
+		"LOCATION": "AL-HIJRA ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "550 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "A004",
+		"HOTELNAME": "AL-RAYA AJYAD***",
+		"LOCATION": "AJYAD ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "500 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "A005",
+		"HOTELNAME": "AL BARKATHI",
+		"LOCATION": "AJYAD ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "500 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "A006",
+		"HOTELNAME": "AL MANAR AL HUSSAIN",
+		"LOCATION": "AJYAD ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "500 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "A007",
+		"HOTELNAME": "AL-MASSA",
+		"LOCATION": "AJYAD ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "50 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "A008",
+		"HOTELNAME": "AREEJ ALFALAH **",
+		"LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "250 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "B001",
+		"HOTELNAME": "BURJ AL SULTAN**",
+		"LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "200Mt. from Haram "
+	},
+	{
+		"HOTELCODE": "B002",
+		"HOTELNAME": "BURJ JAWAD***",
+		"LOCATION": "AJYAD ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "200 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "D001",
+		"HOTELNAME": "DIY AFAT MUBARAK",
+		"LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "300 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "D002",
+		"HOTELNAME": "DIY AFAH ALRAHMAN",
+		"LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "250 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "F001",
+		"HOTELNAME": "FIRDOUS AL UMRAH***",
+		"LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "600 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "F002",
+		"HOTELNAME": "FINAL REHAB ",
+		"LOCATION": "AL-HIJRA ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "550 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "G001",
+		"HOTELNAME": "GHALA AL TAJ",
+		"LOCATION": "AL-HIJRA ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "550 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "J001",
+		"HOTELNAME": "JAWHARAT AL HUSSAIN",
+		"LOCATION": "AJYAD ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "300 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "L001",
+		"HOTELNAME": "LE MERIDIAN",
+		"LOCATION": "AJYAD ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "100 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "L002",
+		"HOTELNAME": "LOLO ALKHALIL**",
+		"LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "250 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "M001",
+		"HOTELNAME": "MARSA AL JARIAH***",
+		"LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "300 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "M002",
+		"HOTELNAME": "MAATHER ALJIWAAR HOTEL",
+		"LOCATION": "AL-HIJRA ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "600 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "M003",
+		"HOTELNAME": "MANAR AL TAZ",
+		"LOCATION": "AJYAD ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "500 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "N001",
+		"HOTELNAME": "NAWARAT SHAMS 02**",
+		"LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "350 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "N002",
+		"HOTELNAME": "NAWARAT SHAMS 01",
+		"LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "250 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "N003",
+		"HOTELNAME": "NADA AL-DEAFAH***",
+		"LOCATION": "AJYAD ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "150 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "N004",
+		"HOTELNAME": "Nosour Al Mohajreen",
+		"LOCATION": "AL-HIJRA ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "500 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "N005",
+		"HOTELNAME": "Nosour Al Dahabi",
+		"LOCATION": "AL-HIJRA ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "450 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "O001",
+		"HOTELNAME": "OLAYAN AJIYAD***",
+		"LOCATION": "AJYAD ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "300 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "Q001",
+		"HOTELNAME": "QADERIA AL MASSI",
+		"LOCATION": "AL-HIJRA ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "1200 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "R001",
+		"HOTELNAME": "RAYA GRAND***",
+		"LOCATION": "AJYAD ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "400 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "R002",
+		"HOTELNAME": "RIYADHAH HIJRA***",
+		"LOCATION": "AL-HIJRA ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "550 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "S001",
+		"HOTELNAME": "SARAYA AJYAD***",
+		"LOCATION": "AJYAD ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "300 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "S002",
+		"HOTELNAME": "SARAYA IMAN***",
+		"LOCATION": "AJYAD ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "350 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "T001",
+		"HOTELNAME": "THARAWAT AL ANDLUSIA***",
+		"LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "450 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "W001",
+		"HOTELNAME": "WADI IBRAHIM TOWER",
+		"LOCATION": "IBRAHIM KHALIL ST.HOTEL",
+		"CITY": "Makkah",
+		"FEATURES": "450 Mt. from Haram"
+	},
+	{
+		"HOTELCODE": "A0060",
+		"HOTELNAME": "AL MANAR AL HUSSAIN",
+		"LOCATION": "AJYAD ST.HOTEL",
+		"CITY": "Madinah",
+		"FEATURES": "500 Mt. from Haram"
+	}
+]

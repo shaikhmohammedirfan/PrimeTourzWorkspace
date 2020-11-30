@@ -1,0 +1,47 @@
+
+  
+  // To right alighned element
+  .flexExpand {
+    flex: 1 1 auto;
+  }
+
+  .row {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.card {
+  font-size: 11px;
+  width: auto;
+  max-width: 275px;
+  height: 350px;
+  border-radius: 1em;
+  
+  // To make it center screen 3,2,1 element 
+  margin-left:auto;
+  margin-right:auto;  
+  // end of make it center screen 3,2,1 element 
+ 
+  margin-bottom: 10px;
+  margin-block-start: 10px;
+  padding: 10px;
+  cursor: pointer;
+ }
+
+ .card-body {
+  //  background-color: #b30000;
+  height: 250px;
+ }
+
+ .card-title {
+   font-size: 15px;
+   font-weight: 600;
+ }
+
+.mat-elevation-z8 {
+  margin-top: 50px;
+}
+
+
+
+

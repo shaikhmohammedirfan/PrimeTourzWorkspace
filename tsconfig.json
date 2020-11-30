@@ -6,5 +6,12 @@
 */
 {
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./projects/PTFrontEnd/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/PTFrontEnd/tsconfig.spec.json"
+    }
+]
 }

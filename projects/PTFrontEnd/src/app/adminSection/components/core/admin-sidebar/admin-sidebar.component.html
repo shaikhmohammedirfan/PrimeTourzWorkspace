@@ -1,0 +1,84 @@
+<mat-toolbar class="navbar fixed-top navbar-expand-md">
+
+  <button mat-icon-button (click)="sidenav.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span routerLink="/admin"> Admin Dashboard</span>
+
+  <span class="">{{this.env.PageTitle}} </span>
+
+
+</mat-toolbar>
+
+<mat-sidenav-container fullscreen>
+
+  <mat-sidenav #sidenav mode="push">
+    <br />
+    <button routerLink="/admin" type="button" >
+      <mat-icon>home</mat-icon>
+    </button>
+    <!-- <a class="nav-link" (click)="sidenav.toggle()" routerLink="/school/reports">
+      <button type="button" class="btn btn-primary btn-sm btn-block">Reports</button>
+    </a> -->
+
+
+    <br />
+    <br />
+
+    <button class="btn btn-sm btn-outline-secondary dropdown-toggle sidebarBtn" [matMenuTriggerFor]="hotelmaster">Hotel
+      Master</button>
+    <mat-menu #hotelmaster="matMenu">
+      <button mat-menu-item routerLink="/admin/manage-hotels">Hotel List</button>
+      <button mat-menu-item routerLink="/admin/manage-hotels/add-hotel">Add Hotel</button>
+      <button mat-menu-item routerLink="/admin/manage-hotels/edit-hotel/:id">Edit Hotel</button>
+    </mat-menu>
+
+
+    <button class="btn btn-sm btn-outline-secondary dropdown-toggle sidebarBtn" [matMenuTriggerFor]="propertymaster">Property
+      Master</button>
+    <mat-menu #propertymaster="matMenu">
+      <button mat-menu-item routerLink="/admin/manage-properties">Property List</button>
+      <button mat-menu-item routerLink="/admin/manage-properties/add-property">Add Property</button>
+      <button mat-menu-item routerLink="/admin/manage-properties/edit-property/:id">Edit Property</button>
+    </mat-menu>
+
+
+    <button class="btn btn-sm btn-outline-secondary dropdown-toggle sidebarBtn" [matMenuTriggerFor]="roommaster">Room
+      Master</button>
+    <mat-menu #roommaster="matMenu">
+      <button mat-menu-item routerLink="/admin/room-master">Room List</button>
+      <button mat-menu-item routerLink="/admin/room-master/add-room">Add Room</button>
+      <button mat-menu-item routerLink="/admin/room-master/edit-room">Edit Room</button>
+    </mat-menu>
+
+    <button class="btn btn-sm btn-outline-secondary dropdown-toggle sidebarBtn" [matMenuTriggerFor]="packagemaster">Package
+      Master</button>
+    <mat-menu #packagemaster="matMenu">
+      <button mat-menu-item routerLink="/admin/customer-master">Package List</button>
+      <button mat-menu-item routerLink="/admin/customer-master/add-customer">Add Package</button>
+      <button mat-menu-item routerLink="/admin/customer-master/edit-customer">Edit Package</button>
+    </mat-menu>
+    <br />
+    <br />
+
+    <section>
+      <div class="example-button-row">
+        <div class="example-button-container dark">
+            <button mat-mini-fab (click)="LogOut()" color="primary">
+              <mat-icon>home</mat-icon>
+            </button>
+
+          </div>
+        </div>
+    </section>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <!-- <a class="nav-link" (click)="sidenav.toggle()" style="background-color:  #434343">
+      <button type="button" class="btn btn-primary btn-sm">Open/Close Admin Menu</button>
+    </a> -->
+
+
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

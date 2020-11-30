@@ -1,0 +1,26 @@
+
+body {
+    background-color:#e0e0e0; 
+    width: 100%;
+  }
+  
+  .jumbotron {
+      margin-top: 5px;
+      margin-left: 5px;
+    }
+
+  .jumbotronBlue {
+    background-image: linear-gradient(160deg, #000000 20%, #335063 74%);
+    }
+
+    .content {
+        display: flex;
+        margin-top: 150px;      
+        flex-direction: column;
+        align-items: center;
+        // background-color: yellow;
+      }
+      .fas {
+        color: #000000;
+        font-size: 20px;
+      }

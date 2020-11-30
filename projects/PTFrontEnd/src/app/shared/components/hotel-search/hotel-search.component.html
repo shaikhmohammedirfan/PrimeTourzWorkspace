@@ -1,0 +1,238 @@
+<mat-expansion-panel #hotelsearch [expanded]="step === 0" (opened)="setStep(0)" hideToggle>
+  <mat-expansion-panel-header class="myPanel text-center border mat-elevation-z8" >
+    <mat-panel-title style="justify-content: center;">
+  <br>
+      <span style="font-size: 18px;">
+        <mat-icon style="font-size: 18px; " >search</mat-icon>
+        Search Hotel</span>
+       <span class="flexExpand"></span>
+      <mat-icon  *ngIf="!hotelsearch.expanded">arrow_drop_down</mat-icon>
+      <mat-icon  *ngIf="hotelsearch.expanded">arrow_drop_up</mat-icon>
+    </mat-panel-title>
+
+<br>
+
+</mat-expansion-panel-header>
+
+<div style="margin-top:15px;">
+
+<form id="sHotelForm" [formGroup]="sHotelForm" (ngSubmit)="onFormSubmit()" class="form-horizontal containers">
+
+  <div class="row">
+
+  </div>
+  <div class="row">
+    <div class="col-4">
+
+     <mat-form-field appearance="outline" style="width:28vw">
+        <mat-label><b>City</b></mat-label>
+
+        <input matInput placeholder="City/Airport" aria-label="City" [matAutocomplete]="auto"
+        formControlName="city" required>
+        <div mat-icon-button matSuffix>
+          <mat-icon style="font-size: 30px;">arrow_drop_down</mat-icon>
+        </div>
+        <mat-autocomplete #auto="matAutocomplete">
+          <mat-option *ngFor="let city of filteredCities | async" [value]="city.CityAirport">
+            <span>{{city.CityAirport}}</span>
+          </mat-option>
+
+        </mat-autocomplete>
+
+      <mat-error>City/Airport cannot be blank!</mat-error>
+
+      </mat-form-field>
+    </div>
+
+
+    <div class="col-4">
+      <mat-form-field appearance="outline" style="width:28vw">
+        <mat-label><b>InDate</b></mat-label>
+        <input id="indate" matInput readonly [matDatepicker]="indate"
+         [(ngModel)]= "inDateDefault" placeholder="Select Check in date"
+         formControlName="indate" [min]="minIdate"
+         (dateInput)="inDateChange($event.value)" >
+
+        <mat-datepicker-toggle matSuffix [for]="indate" style="color: rgb(0, 0, 0); ">
+
+        <mat-icon>date_range</mat-icon>
+        </mat-datepicker-toggle>
+        <mat-datepicker touchUi="true" #indate></mat-datepicker>
+      </mat-form-field>
+    </div>
+
+    <div class="col-4">
+      <mat-form-field appearance="outline" style="width:28vw">
+        <mat-label><b>OutDate</b></mat-label>
+        <input id="outdate" matInput readonly [matDatepicker]="outdate"
+        [(ngModel)]= "outDateDefault" placeholder="Select Check out Date"
+        formControlName="outdate" [min]="minOdate"
+        (dateInput)="outDateChange($event.value)"
+        (blur)="logValidationErrors()">
+        <mat-datepicker-toggle matSuffix [for]="outdate" style="color: rgb(0, 0, 0);">
+        <mat-icon>calendar_today</mat-icon>
+        </mat-datepicker-toggle>
+        <mat-datepicker touchUi="true" #outdate ></mat-datepicker>
+      </mat-form-field>
+    </div>
+
+  </div>
+
+
+   <div class="container-fluid card">
+
+
+    <div class="text-right">   <mat-label><b>Add Room</b></mat-label>
+      <mat-icon style="font-size: 2em; cursor: pointer;" (click)="AddRoom()">add_box</mat-icon>
+    </div>
+
+    <div formArrayName="rooms" *ngFor="let room of sHotelForm.get('rooms')['controls']; let i = index">
+       <div [formGroupName]="i">
+         <!-- To add a horizontal line between items if it is more than one -->
+        <hr *ngIf="i>0" >
+  <div class="row">
+    <div class="col-3">
+      <mat-form-field appearance="outline" style="width:20vw">
+        <mat-label><b>Room No.</b></mat-label>
+        <input [id]="'room'+i" matInput placeholder="Room No." formControlName="room"
+          type="text">
+         <mat-error>Room No.?</mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="col-3">
+      <mat-form-field appearance="outline" style="width:20vw">
+        <mat-label><b>Adults</b></mat-label>
+        <input [id]="'adults'+i" matInput placeholder="Adults" formControlName="adults"
+          type="text" >
+        <mat-error>Adults?</mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="col-3">
+      <mat-form-field appearance="outline" style="width:20vw">
+        <mat-label><b>Children</b></mat-label>
+        <input [id]="'children'+i" matInput placeholder="Children" formControlName="children"  type="text">
+      </mat-form-field>
+    </div>
+
+  <div class="col-3">
+    <!-- <i *ngIf="i>0" class="fas fa-minus-circle" style="color: rgb(235, 51, 18); font-size: 2em;" (click)="RemoveRoom()"></i> -->
+    <mat-icon *ngIf="i>0" style="color: rgb(235, 51, 18); font-size: 2em; cursor: pointer;"
+      (click)="RemoveRoom()" matTooltip="Remove Room">
+      remove_circle</mat-icon>
+
+  </div>
+</div>
+     </div>
+     </div>
+   </div>
+
+<br/>
+
+<mat-action-row>
+  <button mat-button class="btn md-toolbar-tools" (click)="prevStep()">Submit</button>
+</mat-action-row>
+</form>
+
+</div>
+
+
+</mat-expansion-panel>
+<br>
+
+<!-- <div class="mat-elevation-z8" style="background-color: rgb(74, 80, 92);">
+<app-search-results></app-search-results>
+</div> -->
+<div *ngIf="totalHotels<1 && citySelected" class="mat-elevation-z8 text-center" style="background-color: rgb(68, 71, 77); color: white; font-size: larger;">
+{{ErrorMessage}}
+</div>
+<div *ngIf="totalHotels>0" class="mat-elevation-z8" style="background-color: rgb(68, 71, 77); color: white;">
+<div class="text-center">
+  <br>
+  <button mat-raised-button class="btn md-toolbar-tools" (click)="openSortSheet()" center>Sort</button>
+  &nbsp;
+  <button mat-raised-button class="btn md-toolbar-tools" (click)="openFilterSheet()" center>Filter</button>
+  <!-- <button mat-raised-button  (click)="openFilterSheet()">Filter</button> -->
+
+</div>
+&nbsp;
+&nbsp;
+<div *ngIf="this.citySelected && this.totalProperty>1 ">
+  <span  >Hot Deals for {{this.citySelected}}</span>
+  &nbsp;
+  &nbsp;
+  <div class="scrollmenu text-center thumnails">
+
+    <div class="list-thumbnail">
+    &nbsp;
+  <div class="img-thumb" *ngFor='let property of plist' style="margin-bottom: 20px; margin-left: 0px;">
+
+
+  <div  class="text-center">
+    <a title="Propety">
+   <app-property-card [properties]="property"></app-property-card>
+    </a>
+
+
+  </div>
+  <!-- <button mat-raised-button  (click)="openFilterSheet()">Filter</button> -->
+
+</div>
+    </div>
+  </div>
+</div>
+&nbsp;
+&nbsp;
+<!-- <mat-menu #citymaster="matMenu">
+  <button mat-menu-item routerLink="/admin/city-master">City List</button>
+  <button mat-menu-item routerLink="/admin/city-master/add-city">Add City</button>
+  <button mat-menu-item routerLink="/admin/city-master/edit-city">Edit City</button>
+</mat-menu>
+-->
+<!-- Place for our special offer hotels banner in user selected city -->
+
+  <div class="row"  style="margin: 10px">
+<div *ngFor='let hotel of hlist' style="margin-left: auto; margin-right: auto; margin-bottom: 20px;">
+
+  <app-hotel-card [hotels] = 'hotel'></app-hotel-card>
+
+</div>
+  <br>
+  </div>
+
+
+
+
+<!-- Code for Special offer hotels banner in user selected city -->
+  <!-- <div class="mat-elevation-z8"
+  *ngFor='let hotel of hlist' style="margin-bottom: 20px; margin-left: 0px;"
+  style="background-color: rgb(68, 71, 77); color: white;"
+  >
+
+
+  <div class="text-center img-thumb" *ngIf="totalHotels>0">
+    <br>
+    <button mat-raised-button  (click)="openSortSheet()" center>Sort</button>
+  &nbsp;
+
+  <button mat-raised-button  (click)="openSortSheet()" center>Filter</button>
+  <br>
+
+    <span>Hot Deals for {{this.citySelected}}</span>
+    <br>
+
+    <div class="scrollmenu text-center thumnails">
+
+        <app-property-card [properties]="hotel"></app-property-card>
+
+    </div>
+  </div>
+</div> -->
+<!-- End of code for Special offer hotels banner in user selected city -->
+
+
+<!-- Place for hotel list result -->
+
+
+

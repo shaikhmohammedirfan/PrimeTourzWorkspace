@@ -1,0 +1,27 @@
+.container-fluid {
+    margin-top: 50px;
+  }
+  
+    
+  .login-card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: black;
+  }
+  
+   /* Responsive Styles */
+   @media screen and (max-width: 575px) {
+    .login-card {margin-top: 5px; margin-bottom: 5px; }
+    .container-fluid {margin-top: 10px; }
+  }
+  
+  
+  

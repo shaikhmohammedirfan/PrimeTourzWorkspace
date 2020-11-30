@@ -1,0 +1,45 @@
+<mat-card >
+  <div class="row" style="justify-content: center;">
+    <br>
+    <!-- <img mat-card-image src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"> -->
+    <img mat-card-image src="assets/images/GentingHighlands.jpg" alt="Photo of a hotel">
+  </div>
+  <!-- <mat-card  *ngFor= 'let row of rows | async' routerLink="/school/hotel-detail" > -->
+    <mat-card-title>
+      {{hotels.hotelname}}
+    </mat-card-title>
+
+  <mat-card-content>
+        <!-- <span class="row">{{hotel.city}}</span> -->
+        <span class="row" > {{hotels.location}} </span>
+        <span class="row" > {{hotels.category}} </span>
+        <span class="row" > {{hotels.features}}  </span>
+
+
+  </mat-card-content>
+
+  <mat-card-actions>
+    <!-- <hr style="border-color: gray; margin: 3px;">
+    <button type="button" class="btn-group float-right" style="margin: 1px;  margin-right: 10px" (click)="editHotel(hotel.hotelcode)">Edit</button>
+    <button type="button" class="btn-group float-right" style="margin: 1px;  margin-right: 10px" (click)="delHotel(hotel.hotelcode)">Delete</button>
+    -->
+
+
+
+  <!-- <div class="btn-group float-right" role="group float" aria-label="Basic example"> -->
+    <!-- <button (click)="onSelect(hotel.id)" mat-mini-fab color="primary" class="float-right button24">
+      <mat-icon class="icon24" aria-label="hotel details">arrow_forward_ios</mat-icon>
+    </button> -->
+
+    <!-- <button (click)="edithotel(hotel.id)" mat-mini-fab color="primary" class="float-right button24">
+      <mat-icon class="icon24" aria-label="Edit hotel">edit</mat-icon>
+    </button> -->
+
+    <!-- <button (click)="onDelete(hotel.id)" mat-mini-fab color="warning" class="float-right button24">
+      <mat-icon class="icon24" aria-label="Edit hotel">delete</mat-icon>
+
+    </button> -->
+  <!-- </div>  -->
+  </mat-card-actions>
+
+</mat-card>

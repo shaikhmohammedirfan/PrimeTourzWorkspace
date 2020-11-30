@@ -1,0 +1,411 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%;  }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.companyLogo {
+  cursor: pointer;
+  }
+
+
+// Page background classes
+.bgdark{
+  background-color: #292b2c;
+  }
+
+// Text color classes
+.TextWhite {
+  color: white;
+}
+
+
+.limitChar {
+  display:inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 23ch;
+}
+.pageTitleTomato {
+  font-size: 5vw;
+  padding: 10px;
+  color:#ff6347;
+  cursor: pointer;
+  }
+
+  .HeadFonts {
+    font-size: 20px;
+  }
+
+  .infoBox {
+    padding: 15px;
+    color: rgb(3, 3, 3);
+    font-weight: 600;
+    background-color: #afd1db;
+  }
+
+  // fontawesome and other icon settings
+.fas {
+  color: rgb(255, 255, 255);
+  font-size: 1.3em;
+  text-align: center;
+  align-content: center;
+}
+
+.my-social-kaaba-solid, .material-icons {
+  font-size: 1.5em;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   align-content: center;
+}
+
+// end of fontawesome and other icon settings
+
+// footer icons
+.circle-link {
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  margin: 8px;
+  background-color: white;
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: 1s ease-out;
+}
+.circle-link:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: 0px 9px 30px  #372c5c;;
+}
+
+// notification snackbar classes
+
+.success.mat-snack-bar-container {
+  background:  #5cb85c;
+  color: white;
+  font-size: 12px;
+}
+
+
+.error.mat-snack-bar-container {
+  background:  #d81111;
+  color: white;
+  font-size: 12px;
+}
+
+.blue-snackbar {
+  background:  #112fd8;
+  color: white;
+  font-family: 'Amiri', 'SansCondensed';
+  font-size: 18px;
+}
+
+// End of notification snackbar classes
+
+// old stylesheet data
+
+mat-card {
+  width: 250px;
+  height: 200px;
+  font-size: 10px;
+  color:lightgray;
+  border: saddlebrown;
+  // user em for more rounded corners
+  border-radius: 1.7em;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 5px;
+  // vertical-align: middle;
+  margin-block-start: 10px;
+  padding: 10px;
+  // background-color:#323435;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgb(32, 21, 23), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+}
+  .login-card {
+    width: auto;
+    max-width: 600px;
+    display: block;
+   // use em for more rounded corners
+    border-radius: 1em;
+    margin: 100px auto;
+    padding: 20px;
+    text-anchor: middle;
+    background-color: #d5e5e7;
+    box-shadow: 0 10px 20px rgb(190, 195, 224), 0 6px 6px rgb(222, 166, 165) ;
+    font-size: 15px;
+    font-weight: bolder;
+    color:black;
+  }
+
+  // End of cards
+
+
+// **** Buttons css *** //
+
+// Material button css
+
+// // End of code for Material button css
+
+  .tabSpace {
+    padding-left: 80px;
+  }
+
+
+.matSmallBar {
+  background: #055377;
+  color: white;
+  padding: 10px;
+  height: 40px;
+  font-size: 15px;
+}
+  .btn-dark {
+    font-size: 12px;
+    border-radius: 5px;
+  }
+  .btn-submit {
+    background: #055377;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+
+
+  .closeBtnRight {
+    float: right;
+    width: 45px;
+    height: 40px;
+    min-width: 0px !important;
+    padding: 0px !important;
+
+  }
+
+  // For circular button
+    .RoundBtn {
+      border-radius: 30px;
+      width: 130px;
+      height: 40px;
+      background-color: #055377;
+      color: white;
+      font-size: 14px;
+      text-align: center;
+      outline: none;
+      border: none;
+      outline-offset: none;
+
+    }
+
+  // End of Buttons
+
+  // mat form styling
+
+  // end of material form stylling
+
+
+
+
+// Media queries for Small screens
+// Media queries should be placed at the end of the file because CSS
+// Code is get implemented in up to down manner
+
+@media screen and (max-width: 800px) {
+  .mat-toolbar {font-size: 15px;}
+  .matSmallBar {font-size: 9px;}
+}
+
+@media screen and (min-width: 401px) {
+.HeadFonts {font-size: 20px;}
+.strongTITLE {font-size: 45px; }
+.RoundBtn {width: 85px; height: 30px;font-size: 12px; }
+}
+
+// svgs converted fotns from fontawesome/icomoons
+@import url('../src/assets/SVGfont');
+
+
+
+// end of svgs converted fotns from fontawesome/icomoons
+
+  // code for clouds at the bottom of the page
+  svg#clouds {
+    position: fixed;
+    bottom: -160px;
+    left: -230px;
+    z-index: -10;
+    width: 1920px;
+  }
+
+    svg#rocket-smoke {
+      right: 120px;
+      transform: rotate(-5deg);
+    }
+   /* -------------------- */
+
+
+  /*  Bounce-in effect and card animation code from Animate.css  */
+
+  .bounceIn-card {
+    -webkit-animation: cardEnter 0.75s ease-in-out 0.5s;
+    animation: cardEnter 0.75s ease-in-out 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    opacity: 0;
+  }
+
+
+
+
+  @-webkit-keyframes cardEnter {
+    0%,
+    20%,
+    40%,
+    60%,
+    80%,
+    100% {
+      -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    0% {
+      opacity: 0;
+      -webkit-transform: scale3d(0.3, 0.3, 0.3);
+      -ms-transform: scale3d(0.3, 0.3, 0.3);
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+    20% {
+      -webkit-transform: scale3d(1.1, 1.1, 1.1);
+      -ms-transform: scale3d(1.1, 1.1, 1.1);
+      transform: scale3d(1.1, 1.1, 1.1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.9, 0.9, 0.9);
+      -ms-transform: scale3d(0.9, 0.9, 0.9);
+      transform: scale3d(0.9, 0.9, 0.9);
+    }
+    60% {
+      opacity: 1;
+      -webkit-transform: scale3d(1.03, 1.03, 1.03);
+      -ms-transform: scale3d(1.03, 1.03, 1.03);
+      transform: scale3d(1.03, 1.03, 1.03);
+    }
+    80% {
+      -webkit-transform: scale3d(0.97, 0.97, 0.97);
+      -ms-transform: scale3d(0.97, 0.97, 0.97);
+      transform: scale3d(0.97, 0.97, 0.97);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: scale3d(1, 1, 1);
+      -ms-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes cardEnter {
+    0%,
+    20%,
+    40%,
+    60%,
+    80%,
+    100% {
+      -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    0% {
+      opacity: 0;
+      -webkit-transform: scale3d(0.3, 0.3, 0.3);
+      -ms-transform: scale3d(0.3, 0.3, 0.3);
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+    20% {
+      -webkit-transform: scale3d(1.1, 1.1, 1.1);
+      -ms-transform: scale3d(1.1, 1.1, 1.1);
+      transform: scale3d(1.1, 1.1, 1.1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.9, 0.9, 0.9);
+      -ms-transform: scale3d(0.9, 0.9, 0.9);
+      transform: scale3d(0.9, 0.9, 0.9);
+    }
+    60% {
+      opacity: 1;
+      -webkit-transform: scale3d(1.03, 1.03, 1.03);
+      -ms-transform: scale3d(1.03, 1.03, 1.03);
+      transform: scale3d(1.03, 1.03, 1.03);
+    }
+    80% {
+      -webkit-transform: scale3d(0.97, 0.97, 0.97);
+      -ms-transform: scale3d(0.97, 0.97, 0.97);
+      transform: scale3d(0.97, 0.97, 0.97);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: scale3d(1, 1, 1);
+      -ms-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  // end of bounce-in and card animation code
+
+
+
+  // Code for CSS shapes
+  #pentagon {
+    width: 54px;
+    position: relative;
+    border-width: 50px 18px 0;
+    border-style: solid;
+    border-color: #277bab transparent;
+  }
+
+  #pentagon:before {
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: -85px;
+    left: -18px;
+    border-width: 0 45px 35px;
+    border-style: solid;
+    border-color: transparent transparent #277bab;
+  }
+
+  hexagon {
+    width: 100px;
+    height: 55px;
+    background: #fc5e5e;
+    position: relative;
+    margin: 10px auto;
+  }
+
+  #hexagon:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -25px;
+    left: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 25px solid #fc5e5e;
+  }
+
+  #hexagon:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 25px solid #fc5e5e;
+  }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

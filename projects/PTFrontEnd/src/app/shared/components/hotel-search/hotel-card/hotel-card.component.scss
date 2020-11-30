@@ -1,0 +1,75 @@
+
+
+mat-card {
+  width: 250px;
+  height: 200px;
+  font-size: 10px;
+  color:lightgray;
+  border: saddlebrown;
+  // user em for more rounded corners
+  border-radius: 1.7em;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 5px;
+  // vertical-align: middle;
+  margin-block-start: 10px;
+  padding: 10px;
+  // background-color:#323435;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgb(32, 21, 23), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+}
+
+// To hide border line around above mat-card
+// .mat-card:not([class*=mat-elevation-z]) {
+//   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px 0px rgba(0, 0, 0, 0);
+// }
+
+mat-card-title {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  text-align: center;
+
+}
+
+  mat-card-header {
+    height: 20px;
+    background-color: saturation($color: #000000);
+  }
+
+  .mat-card :hover {
+    transform: scale(1.1, 1.1);
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+  }
+
+  .row {
+    justify-content: center;
+    color: rgb(68, 66, 66)
+  }
+  .button-icon .icon {
+    display: block; /*** icons on the texts ***/
+    font-size: 26px; /*** increase size of icons ***/
+    margin-bottom: 3px;
+
+  }
+
+
+  img.mat-card-image {
+    width: 125px;
+    height: 72px;
+  }
+
+.card-title {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+    @media screen and (max-width: 575px) {
+     .btn-sm {max-width: 15px;height: 25px;}
+    }

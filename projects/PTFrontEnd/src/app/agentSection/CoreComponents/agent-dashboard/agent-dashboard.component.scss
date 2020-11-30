@@ -1,0 +1,119 @@
+
+  .content {
+    display: flex;
+    margin-top: 180px;      
+    flex-direction: column;
+    align-items: center;
+  }
+
+// To right alighned element
+  .flexExpand {
+    flex: 1 1 auto;
+  }
+
+  .mat-elevation1 {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 1em;
+  }
+  mat-card-header {
+    height: 20px;
+    background-color: saturation($color: #000000);
+  }
+// .card-container {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: center;
+//    }
+
+// fontawesome icon settings
+.fas {
+  color: rgb(255, 255, 255);
+  font-size: 1.1em;
+  text-align: center;
+  align-content: center;
+}
+
+.card-title {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menuCard {
+  height: 260px;
+  width: 160px;
+    }
+
+
+.card.card-med {
+  height: 100px;
+  width: 100px;
+  align-content: center;
+  text-align: center;
+  background-color:rgb(73, 60, 59);
+  border-color:rgb(124, 104, 103);
+  font-family: 'Amiri', 'SansCondensed';
+  font-size: 18px;
+  font-weight: 800;
+  color: rgb(218, 211, 211);
+}
+
+
+.card-small {
+  height: 10px;
+  width: 50px;
+  align-content: center;
+  text-align: center;
+  background-color:rgb(70, 69, 69);
+  border-color:rgb(124, 104, 103);
+  font-family: 'Amiri', 'SansCondensed';
+  font-size: 18px;
+  font-weight: 800;
+  color: rgb(218, 211, 211);
+}
+
+
+svg#clouds {
+  position: fixed;
+  bottom: -160px;
+  left: -230px;
+  z-index: -10;
+  width: 1920px;
+}
+
+
+  
+.circle-linkBig {
+  width: 150px;
+  font-size: 12px;
+  color: white;
+  background-color: rgb(71, 114, 255);
+}
+
+.btn-sm {
+font-size: 9px;
+color: white;
+background-color: rgb(47, 93, 245);
+}
+
+
+.display-3small {font-size: 20px; color: rgb(55, 56, 160); cursor: pointer; }
+
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+  .display-3 {font-size: 40px; }
+  .card.card-med { height: 70px; width: 95%;  margin: 0 2px 2px;}
+  .display-3small {font-size: 15px;}
+  .content {margin-top: 170px;}
+}
+@media screen and (max-width: 575px) {
+ .display-3 {font-size: 30px; }
+ .card.card-med { height: 70px; width: 95%;  margin: 0 2px 2px;}
+//  #logoimg { display: none;}
+// img { width: 30%; height: 30%;}
+
+}
+
+// @media screen and (min-width: 401px) and (max-width: 1024px) {}

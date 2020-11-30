@@ -1,0 +1,803 @@
+﻿[
+	{
+		"HOTEL_CODE": "A001",
+		"HOTEL_NAME": "AHRAM AL MAASI",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "160",
+		"ROOM_URL": "https://q-cf.bstatic.com/images/hotel/max1024x768/149/149084488.jpg",
+		"ROOM_FEATURES": "24 Hours Cable TV"
+	},
+	{
+		"HOTEL_CODE": "A001",
+		"HOTEL_NAME": "AHRAM AL MAASI",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "160",
+		"ROOM_URL": "https://q-cf.bstatic.com/images/hotel/max1024x768/201/20138644.jpg",
+		"ROOM_FEATURES": "24 Hours Cable TV"
+	},
+	{
+		"HOTEL_CODE": "A001",
+		"HOTEL_NAME": "AHRAM AL MAASI",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "160",
+		"ROOM_URL": "https://q-cf.bstatic.com/images/hotel/max1024x768/808/80895099.jpg",
+		"ROOM_FEATURES": "Free breakfast and 24 Hours Cable TV"
+	},
+	{
+		"HOTEL_CODE": "A001",
+		"HOTEL_NAME": "AHRAM AL MAASI",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "160",
+		"ROOM_URL": "https://q-cf.bstatic.com/images/hotel/max1024x768/149/149092798.jpg",
+		"ROOM_FEATURES": "Free breakfast and 24 Hours Cable TV"
+	},
+	{
+		"HOTEL_CODE": "A005",
+		"HOTEL_NAME": "AL BARKATHI",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "180",
+		"ROOM_URL": "",
+		"ROOM_FEATURES": ""
+	},
+	{
+		"HOTEL_CODE": "A005",
+		"HOTEL_NAME": "AL BARKATHI",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "200",
+		"ROOM_URL": "",
+		"ROOM_FEATURES": ""
+	},
+	{
+		"HOTEL_CODE": "A005",
+		"HOTEL_NAME": "AL BARKATHI",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "235",
+		"ROOM_URL": "",
+		"ROOM_FEATURES": ""
+	},
+	{
+		"HOTEL_CODE": "A002",
+		"HOTEL_NAME": "AL HUD HUD",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "170",
+		"ROOM_URL": "",
+		"ROOM_FEATURES": ""
+	},
+	{
+		"HOTEL_CODE": "A002",
+		"HOTEL_NAME": "AL HUD HUD",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "170",
+		"ROOM_URL": "",
+		"ROOM_FEATURES": ""
+	},
+	{
+		"HOTEL_CODE": "A002",
+		"HOTEL_NAME": "AL HUD HUD",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "170",
+		"ROOM_URL": "",
+		"ROOM_FEATURES": ""
+	},
+	{
+		"HOTEL_CODE": "A006",
+		"HOTEL_NAME": "AL MANAR AL HUSSAIN",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "180",
+		"ROOM_URL": "",
+		"ROOM_FEATURES": ""
+	},
+	{
+		"HOTEL_CODE": "A006",
+		"HOTEL_NAME": "AL MANAR AL HUSSAIN",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "190",
+		"ROOM_URL": "",
+		"ROOM_FEATURES": ""
+	},
+	{
+		"HOTEL_CODE": "A006",
+		"HOTEL_NAME": "AL MANAR AL HUSSAIN",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "235",
+		"ROOM_URL": "",
+		"ROOM_FEATURES": ""
+	},
+	{
+		"HOTEL_CODE": "A006",
+		"HOTEL_NAME": "AL MANAR AL HUSSAIN",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "255",
+		"ROOM_URL": "",
+		"ROOM_FEATURES": ""
+	},
+	{
+		"HOTEL_CODE": "A003",
+		"HOTEL_NAME": "AL-HIJRA AL MASSI**",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "235",
+		"ROOM_URL": "",
+		"ROOM_FEATURES": ""
+	},
+	{
+		"HOTEL_CODE": "A003",
+		"HOTEL_NAME": "AL-HIJRA AL MASSI**",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "235"
+	},
+	{
+		"HOTEL_CODE": "A003",
+		"HOTEL_NAME": "AL-HIJRA AL MASSI**",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "235"
+	},
+	{
+		"HOTEL_CODE": "A003",
+		"HOTEL_NAME": "AL-HIJRA AL MASSI**",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "235"
+	},
+	{
+		"HOTEL_CODE": "A007",
+		"HOTEL_NAME": "AL-MASSA",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "A007",
+		"HOTEL_NAME": "AL-MASSA",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "295"
+	},
+	{
+		"HOTEL_CODE": "A007",
+		"HOTEL_NAME": "AL-MASSA",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "340"
+	},
+	{
+		"HOTEL_CODE": "A007",
+		"HOTEL_NAME": "AL-MASSA",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "370"
+	},
+	{
+		"HOTEL_CODE": "A004",
+		"HOTEL_NAME": "AL-RAYA AJYAD***",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "245"
+	},
+	{
+		"HOTEL_CODE": "A004",
+		"HOTEL_NAME": "AL-RAYA AJYAD***",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "A004",
+		"HOTEL_NAME": "AL-RAYA AJYAD***",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "350"
+	},
+	{
+		"HOTEL_CODE": "A004",
+		"HOTEL_NAME": "AL-RAYA AJYAD***",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "370"
+	},
+	{
+		"HOTEL_CODE": "A008",
+		"HOTEL_NAME": "AREEJ ALFALAH **",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "A008",
+		"HOTEL_NAME": "AREEJ ALFALAH **",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "295"
+	},
+	{
+		"HOTEL_CODE": "A008",
+		"HOTEL_NAME": "AREEJ ALFALAH **",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "350"
+	},
+	{
+		"HOTEL_CODE": "B001",
+		"HOTEL_NAME": "BURJ AL SULTAN**",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "B001",
+		"HOTEL_NAME": "BURJ AL SULTAN**",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "315"
+	},
+	{
+		"HOTEL_CODE": "B001",
+		"HOTEL_NAME": "BURJ AL SULTAN**",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "370"
+	},
+	{
+		"HOTEL_CODE": "B002",
+		"HOTEL_NAME": "BURJ JAWAD***",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "315"
+	},
+	{
+		"HOTEL_CODE": "B002",
+		"HOTEL_NAME": "BURJ JAWAD***",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "315"
+	},
+	{
+		"HOTEL_CODE": "B002",
+		"HOTEL_NAME": "BURJ JAWAD***",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "315"
+	},
+	{
+		"HOTEL_CODE": "B002",
+		"HOTEL_NAME": "BURJ JAWAD***",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "315"
+	},
+	{
+		"HOTEL_CODE": "D002",
+		"HOTEL_NAME": "DIY AFAH ALRAHMAN",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "D002",
+		"HOTEL_NAME": "DIY AFAH ALRAHMAN",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "295"
+	},
+	{
+		"HOTEL_CODE": "D002",
+		"HOTEL_NAME": "DIY AFAH ALRAHMAN",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "315"
+	},
+	{
+		"HOTEL_CODE": "D001",
+		"HOTEL_NAME": "DIY AFAT MUBARAK",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "D001",
+		"HOTEL_NAME": "DIY AFAT MUBARAK",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "295"
+	},
+	{
+		"HOTEL_CODE": "D001",
+		"HOTEL_NAME": "DIY AFAT MUBARAK",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "315"
+	},
+	{
+		"HOTEL_CODE": "D001",
+		"HOTEL_NAME": "DIY AFAT MUBARAK",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "370"
+	},
+	{
+		"HOTEL_CODE": "F002",
+		"HOTEL_NAME": "FINAL REHAB ",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "F002",
+		"HOTEL_NAME": "FINAL REHAB ",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "F002",
+		"HOTEL_NAME": "FINAL REHAB ",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "F002",
+		"HOTEL_NAME": "FINAL REHAB ",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "F001",
+		"HOTEL_NAME": "FIRDOUS AL UMRAH***",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "190"
+	},
+	{
+		"HOTEL_CODE": "F001",
+		"HOTEL_NAME": "FIRDOUS AL UMRAH***",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "210"
+	},
+	{
+		"HOTEL_CODE": "F001",
+		"HOTEL_NAME": "FIRDOUS AL UMRAH***",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "245"
+	},
+	{
+		"HOTEL_CODE": "F001",
+		"HOTEL_NAME": "FIRDOUS AL UMRAH***",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "275"
+	},
+	{
+		"HOTEL_CODE": "G001",
+		"HOTEL_NAME": "GHALA AL TAJ",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "G001",
+		"HOTEL_NAME": "GHALA AL TAJ",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "G001",
+		"HOTEL_NAME": "GHALA AL TAJ",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "G001",
+		"HOTEL_NAME": "GHALA AL TAJ",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "J001",
+		"HOTEL_NAME": "JAWHARAT AL HUSSAIN",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "285"
+	},
+	{
+		"HOTEL_CODE": "J001",
+		"HOTEL_NAME": "JAWHARAT AL HUSSAIN",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "285"
+	},
+	{
+		"HOTEL_CODE": "J001",
+		"HOTEL_NAME": "JAWHARAT AL HUSSAIN",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "285"
+	},
+	{
+		"HOTEL_CODE": "J001",
+		"HOTEL_NAME": "JAWHARAT AL HUSSAIN",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "285"
+	},
+	{
+		"HOTEL_CODE": "L001",
+		"HOTEL_NAME": "LE MERIDIAN",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "420"
+	},
+	{
+		"HOTEL_CODE": "L001",
+		"HOTEL_NAME": "LE MERIDIAN",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "475"
+	},
+	{
+		"HOTEL_CODE": "L001",
+		"HOTEL_NAME": "LE MERIDIAN",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "580"
+	},
+	{
+		"HOTEL_CODE": "L001",
+		"HOTEL_NAME": "LE MERIDIAN",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "630"
+	},
+	{
+		"HOTEL_CODE": "L002",
+		"HOTEL_NAME": "LOLO ALKHALIL**",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "L002",
+		"HOTEL_NAME": "LOLO ALKHALIL**",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "295"
+	},
+	{
+		"HOTEL_CODE": "L002",
+		"HOTEL_NAME": "LOLO ALKHALIL**",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "350"
+	},
+	{
+		"HOTEL_CODE": "M002",
+		"HOTEL_NAME": "MAATHER ALJIWAAR HOTEL",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "210"
+	},
+	{
+		"HOTEL_CODE": "M002",
+		"HOTEL_NAME": "MAATHER ALJIWAAR HOTEL",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "210"
+	},
+	{
+		"HOTEL_CODE": "M002",
+		"HOTEL_NAME": "MAATHER ALJIWAAR HOTEL",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "210"
+	},
+	{
+		"HOTEL_CODE": "M002",
+		"HOTEL_NAME": "MAATHER ALJIWAAR HOTEL",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "210"
+	},
+	{
+		"HOTEL_CODE": "M003",
+		"HOTEL_NAME": "MANAR AL TAZ",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "210"
+	},
+	{
+		"HOTEL_CODE": "M003",
+		"HOTEL_NAME": "MANAR AL TAZ",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "M003",
+		"HOTEL_NAME": "MANAR AL TAZ",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "295"
+	},
+	{
+		"HOTEL_CODE": "M003",
+		"HOTEL_NAME": "MANAR AL TAZ",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "340"
+	},
+	{
+		"HOTEL_CODE": "M001",
+		"HOTEL_NAME": "MARSA AL JARIAH***",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "M001",
+		"HOTEL_NAME": "MARSA AL JARIAH***",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "295"
+	},
+	{
+		"HOTEL_CODE": "M001",
+		"HOTEL_NAME": "MARSA AL JARIAH***",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "350"
+	},
+	{
+		"HOTEL_CODE": "M001",
+		"HOTEL_NAME": "MARSA AL JARIAH***",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "370"
+	},
+	{
+		"HOTEL_CODE": "N003",
+		"HOTEL_NAME": "NADA AL-DEAFAH***",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "350"
+	},
+	{
+		"HOTEL_CODE": "N003",
+		"HOTEL_NAME": "NADA AL-DEAFAH***",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "350"
+	},
+	{
+		"HOTEL_CODE": "N003",
+		"HOTEL_NAME": "NADA AL-DEAFAH***",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "350"
+	},
+	{
+		"HOTEL_CODE": "N003",
+		"HOTEL_NAME": "NADA AL-DEAFAH***",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "350"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "NAWARAT SHAMS 01",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "210"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "NAWARAT SHAMS 01",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "NAWARAT SHAMS 01",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "295"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "NAWARAT SHAMS 01",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "340"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "NAWARAT SHAMS 02**",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "210"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "NAWARAT SHAMS 02**",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "NAWARAT SHAMS 02**",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "295"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "NAWARAT SHAMS 02**",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "315"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "Nosour Al Dahabi",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "210"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "Nosour Al Dahabi",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "210"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "Nosour Al Dahabi",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "210"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "Nosour Al Mohajreen",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "Nosour Al Mohajreen",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "Nosour Al Mohajreen",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "Nosour Al Mohajreen",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "OLAYAN AJIYAD***",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "OLAYAN AJIYAD***",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "OLAYAN AJIYAD***",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "OLAYAN AJIYAD***",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "QADERIA AL MASSI",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "105"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "QADERIA AL MASSI",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "140"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "QADERIA AL MASSI",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "160"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "QADERIA AL MASSI",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "160"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "RAYA GRAND***",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "245"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "RAYA GRAND***",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "RAYA GRAND***",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "350"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "RAYA GRAND***",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "370"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "RIYADHAH HIJRA***",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "235"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "RIYADHAH HIJRA***",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "235"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "RIYADHAH HIJRA***",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "235"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "RIYADHAH HIJRA***",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "235"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "SARAYA AJYAD***",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "210"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "SARAYA AJYAD***",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "245"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "SARAYA AJYAD***",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "275"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "SARAYA IMAN***",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "255"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "SARAYA IMAN***",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "255"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "SARAYA IMAN***",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "255"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "SARAYA IMAN***",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "255"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "THARAWAT AL ANDLUSIA***",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "THARAWAT AL ANDLUSIA***",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "THARAWAT AL ANDLUSIA***",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "THARAWAT AL ANDLUSIA***",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "WADI IBRAHIM TOWER",
+		"ROOM_TYPE": "Double(2)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "WADI IBRAHIM TOWER",
+		"ROOM_TYPE": "Triple(3)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "WADI IBRAHIM TOWER",
+		"ROOM_TYPE": "Quad(4)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": "",
+		"HOTEL_NAME": "WADI IBRAHIM TOWER",
+		"ROOM_TYPE": "Quint(5)",
+		"ROOM_RATE": "265"
+	},
+	{
+		"HOTEL_CODE": ""
+	}
+]
